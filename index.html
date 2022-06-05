@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./styles/normalize.css">
+		<link rel="stylesheet" type="text/css" href="./styles/style.css">
+		<link rel="icon" href="./assets/img/favicon.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+		<title>Random jokes</title>
+	</head>
+	<body>
+		<header>
+            <button class="switcher EN">EN</button>
+		</header>
+		<main class="container">
+				<img src="./assets/img/chuck.png" alt="Chuck Norris picture" />
+				<img class="first-shot" src="./assets/img/gunshot.png" alt="gunshot first"/>
+				<img class="second-shot" src="./assets/img/gunshot.png" alt="gunshot second"/>
+				<button class="btn">Just give me a new quote!</button>
+				<p id="joke" class="quote"></p>
+		</main>
+		<footer>
+			<div>
+				<p>© 2022</p> 
+				<a class="github" href="https://github.com/anthony-th">github</a>
+			</div>
+			<audio controls class="secret_audio">
+			    <source src="./assets/audio/chuck.mp3" type="audio/mpeg">
+			</audio>
+			<a href="https://rs.school/js-stage0/" target="_blank">
+				<svg class="logo_rs"/>
+			</a>
+        </footer>
+		<script src="script.js"></script>
+	</body>
+</html>
